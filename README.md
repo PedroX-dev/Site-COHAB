@@ -7,6 +7,13 @@ Esta página inicial atua como um painel central para acesso rápido às princip
 
 O projeto foi desenvolvido como parte de um trabalho prático aplicado ao ambiente real da COHAB, demonstrando habilidades em Front-End, Back-End,  UI/UX e boas práticas estruturais.
 
+Por ser um projeto recente, a medida que for sendo melhorado, irei atualizando o GitHub; de toda forma, abaixo, é mostrado um video sobre o site e seu funcionamento.
+
+
+https://github.com/user-attachments/assets/98b523b6-b717-4f62-baff-de8e4b572035
+
+
+
 ---
 
 ## ✨ Funcionalidades
