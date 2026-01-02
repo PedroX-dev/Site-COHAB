@@ -42,13 +42,13 @@ O projeto foi desenvolvido como parte de um trabalho prático aplicado ao ambien
 
 ## 📁 Estrutura do Projeto
 
-cohab-portal/
-│
-├── index.html # Página inicial
-├── css/ # Estilos do projeto
-├── js/ # Scripts e interações
-├── assets/img/ # Ícones e imagens
-└── README.md # Documentação do projeto
+cohab-portal/<br>
+│<br>
+├── index.html # Página inicial <br>
+├── css/ # Estilos do projeto <br>
+├── js/ # Scripts e interações <br>
+├── assets/img/ # Ícones e imagens <br>
+└── README.md # Documentação do projeto <br>
 
 
 ---
