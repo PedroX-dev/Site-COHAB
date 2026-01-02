@@ -11,7 +11,7 @@ Por ser um projeto recente, a medida que for sendo melhorado, irei atualizando o
 
 
 <p align="center">
-  https://github.com/user-attachments/assets/98b523b6-b717-4f62-baff-de8e4b572035
+https://github.com/user-attachments/assets/98b523b6-b717-4f62-baff-de8e4b572035
 </p>
 
 
