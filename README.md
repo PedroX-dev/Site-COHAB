@@ -39,19 +39,6 @@ O projeto foi desenvolvido como parte de um trabalho prático aplicado ao ambien
 - **Bootstrap** → Componentes e grid responsivo
 
 ---
-
-## 📁 Estrutura do Projeto
-
-cohab-portal/<br>
-│<br>
-├── index.html # Página inicial <br>
-├── css/ # Estilos do projeto <br>
-├── js/ # Scripts e interações <br>
-├── assets/img/ # Ícones e imagens <br>
-└── README.md # Documentação do projeto <br>
-
-
----
 ## 🎯 Destaques da Interface
 
 ### 🧭 Navegação
