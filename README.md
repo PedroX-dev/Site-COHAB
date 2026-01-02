@@ -1,4 +1,4 @@
-# 🏢 Portal COHAB – Página Inicial Interativa
+# 🏢 Novo Site - COHAB MINAS
 
 ## 📋 Sobre o Projeto
 
