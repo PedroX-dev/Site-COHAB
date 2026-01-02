@@ -2,7 +2,7 @@
 
 ## 📋 Sobre o Projeto
 
-O Portal COHAB é uma aplicação web desenvolvida com foco em organização, acessibilidade e usabilidade.  
+O novo site da COHAB Minas é uma aplicação web desenvolvida com foco em organização, acessibilidade e usabilidade.  
 Esta página inicial atua como um painel central para acesso rápido às principais funcionalidades do sistema, apresentando um design moderno, limpo e responsivo.
 
 O projeto foi desenvolvido como parte de um trabalho prático aplicado ao ambiente real da COHAB, demonstrando habilidades em Front-End, UI/UX e boas práticas estruturais.
