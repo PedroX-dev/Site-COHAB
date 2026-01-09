@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dividendos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="narrow">
+
+    <!-- Header -->
+    <header>
+        <a href="../../index.html">
+            <img src="../../imagens/logoClaro.svg" alt="logo" id="logo-site" data-light="../../imagens/logoClaro.svg" data-dark="../../imagens/logoEscuro.svg">
+        </a>
+        <form class="busca" action="#" method="get">
+            <input type="text" name="q" placeholder="Buscar..." />
+            <button type="submit">Pesquisar</button>
+        </form>
+
+        <div class="redes-sociais">
+            <button class="redes-toggle">
+                <img src="../../imagens/redesSociais/redeSocial.png" alt="Redes Sociais">
+                <span class="label">Redes Sociais</span>
+            </button>
+            <div class="redes-menu">
+                <button class="redes-close" aria-label="Fechar Redes">&#10005;</button>
+                <a href="#" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/facebook.png" alt="Facebook"></a>
+                <a href="#" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/twitter.png" alt="Twitter"></a>
+                <a href="#" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/instagram.png" alt="Instagram"></a>
+                <a href="#" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <div id="tema">
+            <a href="#"><img src="../../imagens/sol&lua.png" alt="Tema Claro e Escuro"></a>
+            <span class="label"> Tema Claro/Escuro</span>
+        </div>
+        <a href="../../index.html">
+            <img src="../../imagens/logoGoverno.svg" alt="logo governo" id="logo-governo" data-light="../../imagens/logoGoverno.svg" data-dark="../../imagens/logoGovernoDark.svg">
+        </a>
+    </header>
+
+    <!-- Menu Horizontal -->
+    <nav class="menu">
+        <ul class="menu-principal">
+
+            <li class="menu-item">
+                <a href="#">Institucional</a>
+                <ul class="submenu">
+                    <li><a href="../Institucional/historia.html">História</a></li>
+                    <li><a href="../Institucional/quemEquem.html">Quem é quem</a></li>
+                    <li><a href="../Institucional/estrutura.html">Estrutura Organizacional</a></li>
+                    <li><a href="../Institucional/conselhos.html">Conselhos</a></li>
+                    <li><a href="../Institucional/planejamento.html">Planejamento Estrategico</a></li>
+                    <li><a href="../Institucional/legislacao.html">Legislação</a></li>
+                    <li><a href="../Institucional/noticias.html">Notícias</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Transparência</a>
+                <ul class="submenu">
+                    <li><a href="#">Informações Classificadas e Desclassificadas</a></li>
+                    <li><a href="remuneracao.html">Remuneração de Pessoal</a></li>
+                    <li><a href="dados.html">Dados do Orçamento (Relatório de Investimentos)</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="prestacaoCohab.html">Prestação de Contas COHAB</a></li>
+                    <li><a href="prestacaoFEH.html">Prestação de Contas FEH</a></li>
+                    <li><a href="https://acessoainformacao.mg.gov.br/sistema/site/index.aspx" target="_blank">Acesso a Informação</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Governança</a>
+                <ul class="submenu">
+                    <li><a href="#">Cohab Íntegra</a></li>
+                    <li><a href="#">LGPD</a></li>
+                    <li><a href="#">Estatuto Social</a></li>
+                    <li><a href="#">Estatuto de Auditoria</a></li>
+                    <li><a href="#">Estratégias de Negócios</a></li>
+                    <li><a href="#">Carta Anual de Políticas Públicas e Governança Corporativa</a></li>
+                    <li><a href="#">Informações Relevantes</a></li>
+                    <li><a href="#">Dividendos</a></li>
+                    <li><a href="#">Relatório de Administração</a></li>
+                    <li><a href="#">Relatório Anual de Auditoria Interna</a></li>
+                    <li><a href="#">Acionistas</a></li>
+                    <li><a href="#">Políticas</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Licitações e Contratos</a>
+                <ul class="submenu">
+                    <li><a href="#">Regulamento de Licitações e Contratos</a></li>
+                    <li><a href="#">Licitações</a></li>
+                    <li><a href="#">PAC - Plano Anual de Compras</a></li>
+                    <li><a href="#">Data Room</a></li>
+                    <li><a href="#">Licitantes e/ou Contratados Sancionados</a></li>
+                    <li><a href="#">Contratos</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Mutuários</a>
+                <ul class="submenu">
+                    <li><a href="#">2° Via de Boletos</a></li>
+                    <li><a href="#">Escrituras</a></li>
+                    <li><a href="#">Transferência de Financiamento</a></li>
+                    <li><a href="#">Seguros</a></li>
+                    <li><a href="#">Plantas</a></li>
+                    <li><a href="#">Liquidação Antecipada</a></li>
+                    <li><a href="#">Bônus de Adimplência</a></li>
+                    <li><a href="#">Manual do Mutuário e da Casa Própria</a></li>
+                    <li><a href="#">Contrato Cedido ao FIDC</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Atendimento Geral</a>
+                <ul class="submenu">
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Imóveis a Venda</a></li>
+                    <li><a href="#">COHAB Mais Perto</a></li>
+                    <li><a href="#">COHAB Mais Perto - Probpms</a></li>
+                    <li><a href="#">Sala de Imprensa</a></li>
+                    <li><a href="#">Reurb COHAB Minas</a></li>
+                    <li><a href="#">Ouvidoria</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main id="justificar">
+        <span id="titulo">Dividendos</span>
+        <hr>
+        <p>
+            <h5> Previsão estatutária para Distribuição de Dividendos da Cohab Minas </h5>
+            CAPÍTULO VI
+            <br>
+            EXERCÍCIO SOCIAL, DEMONSTRAÇÕES FINANCEIRAS, LUCROS, RESERVAS E DISTRIBUIÇÃO DE RESULTADOS
+            <br><br>
+            <b>Art. 50.</b> O exercício social coincidirá com o ano civil, findo o qual a Diretoria Executiva elaborará as demonstrações financeiras previstas em lei.
+            <br><br>
+            <b>Art. 51.</b> Ao final de cada exercício social, a Diretoria Executiva elaborará, com base na escrituração mercantil da Cohab Minas, as demonstrações financeiras, que deverão traduzir, com clareza, a situação do patrimônio da Empresa e as mutações ocorridas no exercício, tudo de acordo com o previsto e exigido na legislação vigente.
+            <br><br>
+            <b>Art. 52.</b> Procedido o Balanço Anual da Companhia, do lucro líquido do exercício se deduzirão 5% (cinco por cento), que serão aplicados na constituição da reserva legal, nos termos da legislação vigente.
+            <br><br>
+            <b>Parágrafo único.</b> O saldo que se apurar, terá a destinação deliberada pela Assembleia Geral, tendo em vista os objetivos sociais da Companhia.
+            <br><br>
+            <b>Art. 53.</b> Os dividendos não reclamados não renderão juros e prescreverão a favor da Companhia, no prazo de três anos, contados da data da deliberação da Assembleia Geral.
+            <br><br>
+            <b>Art. 54.</b> À Assembleia Geral dos Acionistas competirá, nos termos do que predispõe o §3º, do artigo 202, da Lei Federal nº 6.404/1976, deliberar pela retenção de todo o lucro, uma vez procedidas as reservas referidas no mesmo artigo e aquelas mencionadas nos artigos 195, 197 e 200, da Lei Federal nº 6.404/1976, ou pelo pagamento de dividendos aos Acionistas.
+            <br><br>
+            <b>Parágrafo único.</b> Se a Assembleia Geral dos Acionistas deliberar pelo pagamento de dividendos, estes, correspondentes a 12% (doze por cento) do lucro líquido apurado, diminuído dos valores relativos às reservas, serão pagos na proporção do capital social subscrito pelo Acionista, individualmente.
+            <br><br>
+            <b>Art. 55.</b> É de 30 (trinta) dias o prazo de decadência para o Acionista exercer o direito de preferência, para a subscrição do aumento de capital, conforme o artigo 171, da Lei Federal nº 6.404/1976.
+
+        </p>
+        <hr>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div id="footer-logo">
+            <img src="../../imagens/logoRodape.svg" alt="Logo Cohab" id="logo-rodape" data-light="../../imagens/logoRodape.svg" data-dark="../../imagens/logoRodape.svg">
+        </div>
+
+        <div id="footer-conteudo1">
+            <u>Ínicio</u>
+            <a href="../../index.html">Home</a>
+            <a href="#">Pesquisa</a>
+            <a href="#">Notícias</a>
+        </div>
+        <div id="footer-conteudo2">
+            <u>Sobre nós</u>
+            <a href="#">Conheça a COHAB Minas</a>
+            <a href="#">Contato</a>
+            <a href="#">Blog</a>
+        </div>
+        <div id="footer-conteudo3">
+            <u>Suporte</u>
+            <a href="#">Perguntas Frequentes/FAQ</a>
+            <a href="#">Telefones/E-mails</a>
+            <a href="#">Chat</a>
+        </div>
+        <div id="footer-fim">
+            <p>&copy; 2025 Cohab. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+<script src="../../script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
