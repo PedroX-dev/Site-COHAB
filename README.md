@@ -1,6 +1,6 @@
 # 🏢 Site COHAB MINAS 2026
 <p align="center">
- <a href="[sitecohab2026.ct.ws](https://sitecohab2026.ct.ws)"><b>Site COHAB 2026</b></a>
+ https://sitecohab2026.ct.ws
 </p>
 ## 📋 Sobre o Projeto
 
