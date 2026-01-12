@@ -1,4 +1,4 @@
-﻿document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   // Redes sociais (abre/fecha)
   const redes = document.querySelector('.redes-sociais');
   const toggle = redes?.querySelector('.redes-toggle');
@@ -24,6 +24,18 @@
   const temaBotao = tema?.querySelector('a');
   const logos = Array.from(document.querySelectorAll('img[data-light][data-dark]'));
   let temaAtual = 'claro';
+  const TEMA_STORAGE_KEY = 'cohab-tema';
+
+  const carregarTema = () => {
+    const salvo = localStorage.getItem(TEMA_STORAGE_KEY);
+    if (salvo === 'claro' || salvo === 'escuro') {
+      temaAtual = salvo;
+    }
+  };
+
+  const salvarTema = () => {
+    localStorage.setItem(TEMA_STORAGE_KEY, temaAtual);
+  };
 
   const atualizarTemaTexto = () => {
     if (!temaLabel) return;
@@ -48,8 +60,10 @@
     e.preventDefault();
     temaAtual = temaAtual === 'claro' ? 'escuro' : 'claro';
     aplicarTema();
+    salvarTema();
   });
 
+  carregarTema();
   aplicarTema();
 
   // Menu Scroll (carrossel horizontal)
