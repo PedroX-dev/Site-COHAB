@@ -1,7 +1,6 @@
 # 🏢 Site COHAB MINAS 2026
 
- Click [here](https://www.geeksforgeeks.org/){:target="_blank"} 
-to visit GeeksForGeeks website.
+Click [here](https://www.geeksforgeeks.org/){:target="_blank"} to visit GeeksForGeeks website.
 
 ## 📋 Sobre o Projeto
 
