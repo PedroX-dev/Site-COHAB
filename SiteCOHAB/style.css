@@ -1746,6 +1746,9 @@ body.tema-escuro .noticias-layout .data-postagem {
   color: #1f2a3a;
   text-decoration: none;
 }
+body.tema-escuro .busca-sugestao-item {
+  color: #e6e9ef;
+}
 
 .busca-sugestao-item:hover,
 .busca-sugestao-item:focus {
