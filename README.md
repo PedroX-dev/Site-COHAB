@@ -60,7 +60,12 @@ https://github.com/user-attachments/assets/96a7fa63-0cd9-485f-b073-59cc3b85e777
 ---
 ## ✨ Próximo Passo 
 
+### Criar uma página inicial
+- Buscando mais praticidade para todos tipos de usuarios
+<img width="1839" height="1005" alt="index" src="https://github.com/user-attachments/assets/95955bea-f85c-4607-a41d-516a3cea659a" />
+
 ### Melhorar a dinâmica do site
+- Buscando a melhoria geral para todos
 <img width="1536" height="1024" alt="cohab" src="https://github.com/user-attachments/assets/645b914d-86a7-4d95-b309-62b39de989a1" />
 
 
