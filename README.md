@@ -59,7 +59,10 @@ https://github.com/user-attachments/assets/96a7fa63-0cd9-485f-b073-59cc3b85e777
 - Boa experiência tanto no desktop quanto no celular
 
 ---
-## ✨ Próximo Passo 
+## ✨ Próximas Etapas
+
+### Requisitos e Critérios de Transparência
+- Atender todos requisitos possiveis dos critérios estabelecidos
 
 ### Criar uma página inicial
 - Buscando mais praticidade para todos tipos de usuarios
