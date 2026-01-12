@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/96a7fa63-0cd9-485f-b073-59cc3b85e777
 - Boa experiência tanto no desktop quanto no celular
 
 ---
-## Próximo Passo
+## ✨ Próximo Passo 
 
 ### Melhorar a dinâmica do site
 <img width="1536" height="1024" alt="cohab" src="https://github.com/user-attachments/assets/645b914d-86a7-4d95-b309-62b39de989a1" />
