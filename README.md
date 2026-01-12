@@ -2,6 +2,7 @@
 <p align="center">
   <a href="https://sitecohab2026.ct.ws">Clique Aqui </a> para acessar o novo site da COHAB Minas 2026
 </p>
+
 ## 📋 Sobre o Projeto
 
 O novo site da COHAB Minas é uma aplicação web desenvolvida com foco em organização, acessibilidade e usabilidade.  
