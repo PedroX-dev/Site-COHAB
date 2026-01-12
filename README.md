@@ -1,8 +1,8 @@
 # 🏢 Site COHAB MINAS 2026
-<p align="center">
+
  Click [here](https://www.geeksforgeeks.org/){:target="_blank"} 
 to visit GeeksForGeeks website.
-</p>
+
 ## 📋 Sobre o Projeto
 
 O novo site da COHAB Minas é uma aplicação web desenvolvida com foco em organização, acessibilidade e usabilidade.  
