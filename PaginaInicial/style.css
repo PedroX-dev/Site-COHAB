@@ -77,7 +77,7 @@
   text-decoration: none;
   color: var(--text);
 
-  /* >>> AQUI É O QUE MUDA: bem mais transparente <<< */
+  /* bem mais transparente*/
   background: rgba(255,255,255,.18);
 
   /* borda estilo vidro */
@@ -214,3 +214,4 @@
   .cohab-iconbox{ top: 16px; left: 16px; }
   .cohab-card-body{ padding-top: 46px; }
 }
+
