@@ -83,16 +83,51 @@ img {
 
 header {
   display: grid;
-  grid-template-columns: auto minmax(240px, 620px) auto auto auto;
-  grid-template-areas: "logo busca redes tema governo";
+  grid-template-columns: auto minmax(220px, 1fr) minmax(240px, 520px) auto auto auto;
+  grid-template-areas: "logo links busca redes tema governo";
   align-items: center;
-  column-gap: clamp(10px, 2vw, 24px);
+  column-gap: clamp(10px, 1.6vw, 20px);
   row-gap: clamp(8px, 1.5vw, 16px);
   padding: clamp(8px, 1.5vw, 16px) clamp(16px, 3vw, 32px);
+  background: linear-gradient(180deg, #3c3c3c 0%, #2b2b2b 100%);
 }
 
 #logo-site {
   grid-area: logo;
+}
+
+.header-links {
+  grid-area: links;
+  overflow: hidden;
+}
+
+.header-links ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: clamp(10px, 1.6vw, 22px);
+  margin: 0;
+  padding: 0;
+}
+
+.header-links a {
+  display: inline-flex;
+  align-items: center;
+  color: #f5f5f5;
+  font-weight: 600;
+  font-size: clamp(11px, 0.9vw, 13px);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.header-links a:hover,
+.header-links a:focus-visible {
+  border-color: #fff;
+  color: #fff;
 }
 
 .redes-sociais {
@@ -222,6 +257,10 @@ body.tema-escuro #logo-site {
   font-size: 14px;       
   letter-spacing: 0.3px; 
   color: #000;          
+}
+
+header .label {
+  color: #f5f5f5;
 }
 
 .redes-close {
@@ -1292,10 +1331,11 @@ body.tema-escuro .menu-card img {
     grid-template-columns: 1fr;
     grid-template-areas:
       "logo"
-      "governo"
+      "links"
       "busca"
       "redes"
-      "tema";
+      "tema"
+      "governo";
     justify-items: center;
   }
   #tema {
@@ -2933,6 +2973,7 @@ main {
     grid-template-columns: auto 1fr auto;
     grid-template-areas:
       "logo busca governo"
+      "links links links"
       "redes tema tema";
     justify-items: center;
   }
