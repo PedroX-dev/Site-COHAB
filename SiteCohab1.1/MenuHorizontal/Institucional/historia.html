@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="narrow">
+
+    <!-- Header -->
+        <header class="site-header">
+        <div class="header-top">
+            <div class="header-left">
+                <div id="tema">
+                    <a href="#" aria-label="Alternar tema claro e escuro">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-circle-half" id="corTema" viewBox="0 0 16 16" aria-hidden="true">
+                            <path class="tema-left" d="M8 1 A7 7 0 0 0 8 15 L8 1 Z"></path>
+                            <path class="tema-right" d="M8 1 A7 7 0 0 1 8 15 L8 1 Z"></path>
+                            <circle class="tema-ring" cx="8" cy="8" r="7" fill="none" stroke-width="1"></circle>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header-social">
+                    <div class="redes-sociais">
+                        <button class="redes-toggle" type="button" aria-expanded="false" aria-controls="redes-menu">
+                            <i class="bi bi-messenger"></i>
+                        </button>
+                        <div class="redes-menu" id="redes-menu" aria-hidden="true">
+                            <button class="redes-close" type="button" aria-label="Fechar Redes">&#10005;</button>
+                            <a href="#" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/facebook.png" alt="Facebook"></a>
+                            <a href="https://br.linkedin.com/company/cohab-mg" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.instagram.com/cohabminas/" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.youtube.com/channel/UCNiSNShLzj2A7g3Y92AiLcw" target="_blank" rel="noopener"><img src="../../imagens/redesSociais/youtube.png" alt="YouTube"></a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header-menu header-menu-left" aria-label="Menu principal esquerdo">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item">
+                            <button class="menu-all-toggle header-menu-toggle" type="button" aria-expanded="false" aria-controls="menu-completo">
+                                <span class="header-menu-label">Menu <i class="bi bi-chevron-down"></i></span>
+                            </button>
+                            <ul class="submenu">
+                                <li><a href="#" data-open-menu-overlay="true">Todos Serviços da Cohab Minas</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Sobre a Cohab</a>
+                            <ul class="submenu">
+                                <li><a href="../../MenuHorizontal/Institucional/historia.html">História</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/quemEquem.html">Quem é quem</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/estrutura.html">Estrutura Organizacional</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/conselhos.html">Conselhos</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/planejamento.html">Planejamento Estratégico</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/legislacao.html">Legislação</a></li>
+                                <li><a href="../../MenuHorizontal/Institucional/noticias.html">Notícias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-logos">
+                <a href="../../paginaInicial.html">
+                    <img src="../../imagens/logoClaro.svg" alt="logo cohab" id="logo-site" data-light="../../imagens/logoClaro.svg" data-dark="../../imagens/logoEscuro.svg">
+                </a>
+                <span class="logo-separator" aria-hidden="true">|</span>
+                <a href="https://www.mg.gov.br/" target="_blank">
+                    <img src="../../imagens/logoGoverno.svg" alt="logo governo" id="logo-governo" data-light="../../imagens/logoGoverno.svg" data-dark="../../imagens/logoGovernoEscuro.svg">
+                </a>
+            </div>
+            <div class="header-right">
+                <nav class="header-menu header-menu-right" aria-label="Menu principal direito">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item">
+                            <a href="#">Mutuários</a>
+                            <ul class="submenu">
+                                <li><a href="https://segundaviacohabminas.elogica.info/" target="_blank">2ª Via de Boletos</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/escrituras.html">Escrituras</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/transferenciaFincan.html">Transferência de Financiamento</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/seguros.html">Seguros</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/plantas.html">Plantas</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/liquidacao.html">Liquidação Antecipada</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/bonus.html">Bônus de Adimplência</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/manual.html">Manual do Mutuário e da Casa Própria</a></li>
+                                <li><a href="../../MenuHorizontal/Mutuarios/contrato.html">Contrato Cedido ao FIDC</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Atendimento Geral</a>
+                            <ul class="submenu">
+                                <li><a href="../../MenuHorizontal/Atendimento/faleConosco.html">Fale Conosco</a></li>
+                                <li><a href="../../MenuHorizontal/Atendimento/perguntas.html">Perguntas Frequentes</a></li>
+                                <li><a href="../../MenuHorizontal/Atendimento/imoveis.html">Imóveis à Venda</a></li>
+                                <li><a href="../../MenuHorizontal/Atendimento/cohabMaisPerto.html">COHAB Mais Perto</a></li>
+                                <li><a href="https://maisperto.cohab.mg.gov.br/" target="_blank">COHAB Mais Perto - Probpms</a></li>
+                                <li><a href="#">Sala de Imprensa</a></li>
+                                <li><a href="https://reurb.cohabmg.com.br/index.php/signin" target="_blank">REURB</a></li>
+                                <li><a href="../../MenuHorizontal/Atendimento/ouvidoria.html">Ouvidoria</a></li>
+                                <li><a href="../../MenuHorizontal/Atendimento/ouvidoria.html">Consultoria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <form class="menu-search menu-search-collapsed" action="#" method="get" aria-label="Buscar no site">
+                        <input type="text" name="q" placeholder="Buscar..." />
+                        <button type="submit" aria-label="Pesquisar">
+                            <span class="menu-search-icon" aria-hidden="true"><img src="../../imagens/busca.svg" data-light="../../imagens/busca.svg" data-dark="../../imagens/buscaEscuro.svg"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+<main id="justificar">
+        <span id="titulo">HISTÓRIA</span>
+        <hr>
+        <p>
+            O <b>Governo do Estado</b> criou a <b>Companhia de Habitação do Estado de Minas Gerais – Cohab Minas</b> como sociedade de economia mista, com a finalidade de combater o déficit habitacional e urbanizar vilas e favelas no Estado. Ela foi instituída pela <b>Lei nº 3.403</b>, de 02 de julho de 1965, proposta pelo então governador <b>José de Magalhães Pinto</b> e aprovada pela <b>Assembleia Legislativa do Estado de Minas Gerais</b>.
+        </p>
+        <p>
+            <img src="imagens/CohabGoverno.png" alt="Historia">
+            <br><br>
+            Em 18 de agosto daquele ano, realizou-se a primeira <b>Assembleia da Companhia</b>, e foi aprovado o seu Estatuto, publicado no Diário Oficial do Estado</b> no dia 01 de Setembro de 1965. Dessa forma, dia 18 de Agosto é a data em que se celebra o aniversário da empresa. O capital social inicial foi da ordem de 8 milhões e seiscentos mil reais – em moeda de hoje -, dividido em 200 mil ações ordinárias.
+            <br><br>
+        </p>
+        <p>
+            Em 16 de Janeiro de 1992, a <b>Lei n° 10.624</b> criou a <b>Secretaria de Estado de Habitação e Desenvolvimento Urbano</b>, à qual a COHAB Minas passou a se vincular. Em 21 de janeiro de 2003, a Lei Delegada 49, em seu Artigo 5º, Inciso VI, transformou aquela pasta na <b>Secretaria de Estado de Desenvolvimento Regional e Política Urbana</b>, e a Cohab Minas na qual a Companhia ficou vinculada por um bom tempo.
+        </p>
+        <p>
+            <b>A iniciativa de se criar a Cohab Minas foi consequência direta da demanda por moradias causada pelo êxodo rural para os grandes centros urbanos.</b> A migração interna da população buscava  oportunidades produzidas pela profunda transformação econômica e social que o País e Minas Gerais viveram a partir da década de 60. Em toda a sua história, assim como hoje, <b>a missão de que se incumbiu a Cohab Minas foi responder ao grande desafio de reduzir, gradualmente, o déficit habitacional em Minas Gerais</b>, o qual, a exemplo do restante do país, se acumula, sobretudo, na faixa da população urbana com renda inferior a três salários mínimos.
+            Responsável direta pela concepção e execução de políticas que visam atingir esse objetivo em Minas Gerais, a Companhia tem encarado de forma concreta esse desafio, desde o dia 1º de novembro de 1967, quando inaugurou o seu primeiro conjunto habitacional: <b>Conjunto Vale do Jatobá</b>, em Belo Horizonte, com 1.312 moradias.
+        </p>  
+        <p>  
+            <img src="imagens/Jatoba.png" alt="Vale Jatoba" id="centralizarIMG">
+            <br>
+            A empresa nasceu condicionada, estreitamente, às normas estabelecidas pela <b>Lei Federal n° 4.380</b>, de 21 de Agosto de 1964, que criou o <b>Sistema Financeiro Nacional de Habitação, o Banco Nacional de Habitação e instituiu a correção monetária</b>. Também se obrigava a acatar a orientação normativa e da assistência técnica direta do <b>Serviço Federal de Habitação e Urbanismo – Serfhau</b>.
+        </p>
+        <p>
+            Na época de sua criação, havia maior disponibilidade de recursos fiscais e orçamentários para a habitação popular, e a Cohab Minas construiu diversos grandes conjuntos habitacionais. Porém, essa política definhou em consequência dos problemas de concepção do modelo do sistema financeiro de habitação. Após ter feito quarenta anos de sua fundação, a Cohab Minas passou, a partir de meados de 2005, a construir casas populares em contexto diferente e mais desafiador que nas décadas de 70 e 80.
+            
+        </p>
+        <p>
+            Como consequência disso, o <b>Plano Mineiro de Desenvolvimento Integrado (PMDI)</b> incluiu no seu escopo a política habitacional de interesse social, e, a partir de 2005, incorporou, como um dos Projetos Estruturadores do Governo de Minas, o <b>Programa Lares Habitação Popular – PLHP</b>, instituído pelo <b>Decreto nº 44.168</b>, de 06/12/05.  Por outro lado, o Governo de Minas também reformulou o <b>Fundo Estadual de Habitação – FEH</b>, revigorando, assim, a atuação da Cohab Minas e, o consequente, resgate da construção de habitações para famílias de baixa renda.
+        </p>
+        <p>
+            O <b>FEH</b>, criado pela <b>Lei Estadual nº 11.830</b>, de 06/07/1995, adaptado pela <b>Lei Estadual nº 19.091</b>, de 30/07/2010, obedece aos dispositivos da <b>Lei Complementar nº 91</b>, de 19/01/2006, que dispõe sobre a instituição e funcionamento dos fundos estaduais. O Fundo é o instrumento de gestão orçamentária que dá suporte financeiro à execução de programas de habitação, especialmente o <b>PLHP</b>, que possibilita o acesso de famílias de renda entre 1 e 3 salários-mínimos à casa própria.
+            <br><br>
+            <img src="imagens/Conjuntos.jpg" alt="Conjuntos COHAB" id="centralizarIMG">
+        </p>
+        <hr>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div id="footer-logo">
+            <img src="../../imagens/logoRodape.svg" alt="Logo Cohab" id="logo-rodape" data-light="../../imagens/logoRodapeX.svg" data-dark="../../imagens/logoRodapeX.svg">
+            </div>
+            <div id="footer-links">
+                <div id="footer-conteudo1">
+                    <u>Ínicio</u>
+                    <a href="../../paginaInicial.html">Home</a>
+                    <a href="../../pesquisa.html">Pesquisa</a>
+                    <a href="../Institucional/noticias.html">Notícias</a>
+                </div>
+                <div id="footer-conteudo2">
+                    <u>Sobre nós</u>
+                    <a href="../Institucional/historia.html">Conheça a COHAB Minas</a>
+                    <a href="../Atendimento/faleConosco.html">Contato</a>
+                    <a href="../../sitemap.html" target="_blank">Mapa do Site</a>
+                </div>
+                <div id="footer-conteudo3">
+                    <u>Suporte</u>
+                    <a href="../Atendimento/perguntas.html">Perguntas Frequentes/FAQ</a>
+                    <a href="../Atendimento/faleConosco.html">Telefones/E-mails</a>
+                    <a href="../Atendimento/faleConosco.html">Chat</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer-fim">
+                <div class="footer-fim-conteudo">
+                    <details class="footer-meta-details">
+                    <summary>Atualizações e Responsáveis</summary>
+                    <div class="footer-meta-content">
+                        <span>Ultima atualizacao: <strong id="ultima-atualizacao">--/--/----</strong></span>
+                        <span>Historico: <strong id="historico-data">--/--/----</strong> - Resolução de problemas de responsatividade do site.</span>
+                        <span>Responsavel pelo conteudo: <strong id="responsavel-conteudo">Pedro Henrique dos Santos Souza Lopes</strong></span>
+                    </div>
+                    </details>
+                    <p>&copy; 2025 Cohab. Todos os direitos reservados.</p>
+                </div>
+            </div>
+    </footer>
+
+<script src="../../script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
+
+
