@@ -434,6 +434,10 @@ body.tema-escuro #logo-site {
   color: #353536;
 }
 
+.redes-toggle:hover{
+  opacity: 0.5;
+}
+
 .redes-toggle img {
   width: clamp(24px, 4vw, 40px);
   height: auto;
@@ -3863,3 +3867,4 @@ nav.menu + .breadcrumbs{
 nav.menu + .breadcrumbs{
   max-width: none; /* evita conflito com regras anteriores */
 }
+
