@@ -40,6 +40,30 @@ main p {
   display: block;
 }
 
+/* Mapa responsivo (COHAB Mais Perto) */
+.mapa-responsivo {
+  max-width: min(100%, 1100px);
+  margin: 0 auto;
+}
+
+.mapa-responsivo iframe {
+  width: 100%;
+  height: clamp(260px, 40vw, 560px);
+  border: 0;
+}
+
+@media (min-width: 1200px) {
+  .mapa-responsivo iframe {
+    height: 560px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapa-responsivo iframe {
+    height: 320px;
+  }
+}
+
 #centralizarIMG {
   display: block;
   margin-left: auto;
