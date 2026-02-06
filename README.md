@@ -1,6 +1,6 @@
 # 🏢 Site COHAB MINAS 2026
 <p align="center">
-  <a href="https://sitecohab2026.ct.ws/">Clique Aqui </a> para acessar o novo site da COHAB Minas 2026
+  <a href="https://pedrox-dev.github.io/Site-COHAB/">Clique Aqui </a> para acessar o novo site da COHAB Minas 2026
 </p>
 
 ## 📋 Sobre o Projeto
