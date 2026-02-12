@@ -1,8 +1,8 @@
 ## 🏛 Institutional Web Platform Developed for COHAB Minas
 
 <p align="center">  
-  ## 🌐 Live Demo
-  🔗 https://pedrox-dev.github.io/Site-COHAB/
+  🌐 Live Demo
+  🔗 <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site-COHAB </a>
 </p>
 
 <p align="center">
