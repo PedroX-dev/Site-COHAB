@@ -68,7 +68,7 @@ Caso apareçam novas ideias, irei coloca-las aqui para implementação futura.
 ---
 ## 🎯 Etapas Concluídas
 
-~~ ### Requisitos e Critérios de Transparência ~~
+### ~~Requisitos e Critérios de Transparência~~
 - Atender todos requisitos possiveis dos critérios estabelecidos
 
 ### Criar uma página inicial
