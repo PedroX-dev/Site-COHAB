@@ -5,7 +5,7 @@
 </p>
 
 <details>
-<summary> # 🇧🇷 Versão em Português </summary>
+<summary> 🇧🇷 Versão em Português </summary>
 
 
 ## 📋 Sobre o Projeto
@@ -98,7 +98,7 @@ Desenvolvido por Pedro Henrique dos Santos Souza Lopes
 </details>
 
 <details>
-<sumary> # 🇺🇸 English Version </sumary>
+<summary> 🇺🇸 English Version </summary>
 
 <p align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas 2026 website
