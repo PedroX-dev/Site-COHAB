@@ -2,9 +2,8 @@
 
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
-- 🇧🇷 [Versão em Português](#-versão-em-português)
-- 🇺🇸 [English Version](#-english-version)
-  
+  <a href="#-versão-em-português">🇧🇷 Português</a> |
+  <a href="#-english-version">🇺🇸 English</a>
 </p>
 
 <details>
