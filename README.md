@@ -1,11 +1,13 @@
 # 🏢 <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site COHAB MINAS 2026 </a>
 
+<p align="center">
+  🌎 Escolha o idioma / Choose language:<br>
+  <a href="#-versão-em-português">🇧🇷 Português</a> |
+  <a href="#-english-version">🇺🇸 English</a>
+</p>
+
 <details>
-<summary>🌎 Select Language / Selecionar Idioma</summary>
-
-- 🇧🇷 [Versão em Português](#-versão-em-português)
-- 🇺🇸 [English Version](#-english-version)
-
+<sumary> # 🇧🇷 Versão em Português </sumary>
 </details>
 
 ## 📋 Sobre o Projeto
@@ -96,7 +98,9 @@ Projeto desenvolvido para fins institucionais e acadêmicos.
 ## 👨‍💻 Autor
 Desenvolvido por Pedro Henrique dos Santos Souza Lopes
 
-# 🇺🇸 English Version
+<details>
+<sumary> # 🇺🇸 English Version </sumary>
+</details>
 
 <p align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas 2026 website
