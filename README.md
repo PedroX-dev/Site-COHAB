@@ -1,9 +1,9 @@
 <h1 align="center"> <a href="https://pedrox-dev.github.io/Site-COHAB/"> Institutional Web Platform Developed for COHAB Minas </a> </h1>
 
 <p align="center">
-  Escolha o idioma para conhecer o projeto / Choose language to learn more about the project:<br>
-  <a href="README-ptBR.md">🇧🇷 Português</a> |
-  <a href="README-en.md">🇺🇸 English</a>
+   Choose language to learn more about the project / Escolha o idioma para conhecer o projeto:<br>
+  <a href="README-en.md">🇺🇸 English</a> |
+  <a href="README-ptBR.md">🇧🇷 Português</a>
 </p>
 
 <h2 align="center">
