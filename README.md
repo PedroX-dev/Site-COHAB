@@ -4,7 +4,7 @@
   🌎 Escolha o idioma / Choose language:<br>
 </p>
 
-<details>
+<details open>
 <summary> 🇧🇷 Versão em Português </summary>
 
 
