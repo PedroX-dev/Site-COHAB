@@ -6,9 +6,9 @@
   <a href="README-en.md">🇺🇸 English</a>
 </p>
 
-<p align="center">
+<h2 align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">🌐 Live Demo</a>
-</p>
+</h2>
 
 https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 
