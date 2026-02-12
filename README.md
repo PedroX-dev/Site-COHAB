@@ -2,7 +2,7 @@
 
 <p align="center">
   Escolha o idioma para conhecer o projeto / Choose language to learn more about the project:<br>
-  <a href="#README-ptBR.md">🇧🇷 Português</a> |
+  <a href="README-ptBR.md">🇧🇷 Português</a> |
   <a href="README-en.md">🇺🇸 English</a>
 </p>
 
