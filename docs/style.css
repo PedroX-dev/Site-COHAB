@@ -521,7 +521,6 @@ body.tema-escuro #tema #corTema .tema-ring {
   color: #000;          
 }
 
-/* Oculta o texto de tema quando o menu de redes sociais estiver aberto */
 /* Escolher entre tema Claro e Escuro*/
 #tema{
     display: inline-flex;
@@ -839,7 +838,7 @@ body.tema-escuro .header-menu-toggle:focus-visible .header-menu-label {
 .menu-item-long > a{
   white-space: normal;
   line-height: 1.1;
-  padding-block: 10px; /* mantém altura agradável */
+  padding-block: 10px;
   text-align: center;
 }
 
@@ -913,7 +912,7 @@ body.tema-escuro .header-menu-toggle:focus-visible .header-menu-label {
   border-bottom-right-radius: 20px;
 }
 
-/* Evita submenu estourar na direita (último item) */
+/* Evita submenu estourar na direita  */
 .menu-item:last-child > .submenu{
   left: auto;
   right: 0;
@@ -1436,16 +1435,13 @@ body.menu-overlay-open {
   display: inline-block;
   position: relative;
   text-align: center;
-  /* color: #fff; */
   color: var(--primary);
   border: 1px solid #fff;
-  /* border-radius: 5px; */
   line-height: 3em;
   padding-left: 5em;
   padding-right: 5em;
   box-shadow: 0 0 0 0 transparent;
   transition: all 0.2s ease-in;
-  /* background: transparent; */
   background-color: rgba(255, 255, 255, 0.9);
   overflow: hidden;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -2180,7 +2176,7 @@ footer a:hover {
 @media (min-width: 1400px){
   footer .footer-inner,
   #footer-fim .footer-fim-conteudo{
-    max-width: 1400px; /* pode testar 1320 / 1440 / 1600 */
+    max-width: 1400px;
   }
 }
 
@@ -3925,8 +3921,8 @@ header {
 nav.menu{
   width: min(100%, var(--container-max));
   margin: 0 auto 16px;
-  padding: 0 var(--page-padding); /* alinha com header/main */
-  /* background: transparent; */
+  padding: 0 var(--page-padding); 
+  
 }
 
 .menu-inner{
@@ -3935,7 +3931,7 @@ nav.menu{
   align-items: stretch;
   gap: 0;
   border-radius: 50px;
-  overflow: visible;  /* não corta dropdown */
+  overflow: visible;
   z-index: 9999;
   background: transparent;
 }
@@ -4253,8 +4249,8 @@ nav.menu{
 
 @media (min-width: 1920px){
   :root{
-    --container-max: 1690px; /* ou 1920px por 32px */
-    --page-padding: 28px; /* container max / 60 */
+    --container-max: 1690px; 
+    --page-padding: 28px;
   }
 }
 
@@ -4274,7 +4270,7 @@ nav.menu + .breadcrumbs{
 
 /* garante que não tem recuo diferente por regra antiga */
 nav.menu + .breadcrumbs{
-  max-width: none; /* evita conflito com regras anteriores */
+  max-width: none;
 }
 
 /* Licitacoes */
