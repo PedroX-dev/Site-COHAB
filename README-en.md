@@ -4,7 +4,7 @@
 <summary>🇺🇸 English Version</summary>
 
 <p align="center">
-  <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas 2026 website
+  <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas website
 </p>
 
 ## 📋 About the Project
