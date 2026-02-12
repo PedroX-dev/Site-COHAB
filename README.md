@@ -12,7 +12,8 @@ O projeto foi desenvolvido como parte de um trabalho prático aplicado ao ambien
 
 Por ser um projeto recente, a medida que for sendo melhorado, irei atualizando o GitHub; de toda forma, abaixo, é mostrado um video sobre o site e seu funcionamento.
 
-https://github.com/user-attachments/assets/96a7fa63-0cd9-485f-b073-59cc3b85e777
+https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
+
 
 ---
 
