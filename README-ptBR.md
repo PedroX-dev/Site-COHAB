@@ -93,5 +93,7 @@ Projeto desenvolvido para fins institucionais e acadêmicos.
 ---
 
 ## 👨‍💻 Autor
-Desenvolvido por Pedro Henrique dos Santos Souza Lopes
+**Pedro Henrique dos Santos Souza Lopes**  
+Estudante de Ciência da Computação  
+Estagiário e Desenvolvedor Full-Stack
 </details>
