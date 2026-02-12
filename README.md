@@ -1,7 +1,7 @@
 <h1 align="center"> Institutional Web Platform Developed for COHAB Minas </h1>
 
 <p align="center">  
-  🌐Live Demo:
+  Live Demo:
   <br>
   <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site-COHAB </a>
 </p>
