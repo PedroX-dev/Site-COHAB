@@ -1,4 +1,8 @@
 # 🏢 Site COHAB MINAS 2026
+<p align="center"> 
+  🌎 Escolha o idioma / Choose language:<br> 
+  <a href="#-versão-em-português">🇧🇷 Português</a> | <a href="#-english-version">🇺🇸 English</a>
+</p>
 <p align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">Clique Aqui </a> para acessar o novo site da COHAB Minas 2026
 </p>
