@@ -3,7 +3,7 @@
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
   <a href="#portugues">🇧🇷 Português</a> |
-  <a href="./README-en.md">🇺🇸 English</a>
+  <a href="README-en.md">🇺🇸 English</a>
 </p>
 
 <details>
