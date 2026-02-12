@@ -1,9 +1,6 @@
 <h1 align="center"> Institutional Web Platform Developed for COHAB Minas </h1>
 
-  <h2 align="center">Live Demo:</h2>
-  <br>
-  <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site-COHAB </a>
-
+  <h2 align="center">Live Demo: <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site-COHAB </a></h2>
 
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
