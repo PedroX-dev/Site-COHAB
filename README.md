@@ -8,7 +8,7 @@
 
 <details>
 <sumary> # 🇧🇷 Versão em Português </sumary>
-</details>
+
 
 ## 📋 Sobre o Projeto
 
@@ -97,10 +97,10 @@ Projeto desenvolvido para fins institucionais e acadêmicos.
 
 ## 👨‍💻 Autor
 Desenvolvido por Pedro Henrique dos Santos Souza Lopes
+</details>
 
 <details>
 <sumary> # 🇺🇸 English Version </sumary>
-</details>
 
 <p align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas 2026 website
@@ -199,3 +199,4 @@ Developed for institutional and academic purposes.
 
 ## 👨‍💻 Author
 Developed by **Pedro Henrique dos Santos Souza Lopes**
+</details>
