@@ -5,7 +5,7 @@
 </p>
 
 <details>
-<sumary> # 🇧🇷 Versão em Português </sumary>
+<summary> # 🇧🇷 Versão em Português </summary>
 
 
 ## 📋 Sobre o Projeto
