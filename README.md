@@ -87,11 +87,10 @@ Basta abrir uma **issue** ou enviar um **pull request**.
 Projeto desenvolvido para fins institucionais e acadêmicos.
 
 ---
+</details>
 
 ## 👨‍💻 Autor
 Desenvolvido por Pedro Henrique dos Santos Souza Lopes
-</details>
-
 
 
 ## Badges
