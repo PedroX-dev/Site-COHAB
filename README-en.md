@@ -1,6 +1,7 @@
 <h1 align="center"> <a href="https://pedrox-dev.github.io/Site-COHAB/"> Institutional Web Platform Developed for COHAB Minas </a> </h1>
 
-🇺🇸 English Version
+<details open>
+<summary>🇺🇸 English Version</summary>
 
 <p align="center">
   <a href="https://pedrox-dev.github.io/Site-COHAB/">Click Here</a> to access the new COHAB Minas 2026 website
@@ -119,3 +120,4 @@ Developed for institutional and academic purposes.
 
 ## 👨‍💻 Author
 Developed by **Pedro Henrique dos Santos Souza Lopes**
+</details>
