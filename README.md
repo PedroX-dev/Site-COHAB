@@ -2,11 +2,11 @@
 
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
-  <a href="#-versão-em-português">🇧🇷 Português</a> |
-  <a href="#-english-version">🇺🇸 English</a>
+  <a href="#portuges">🇧🇷 Português</a> |
+  <a href="#english">🇺🇸 English</a>
 </p>
 
-<details>
+<details id="portuges">
 <summary> 🇧🇷 Versão em Português </summary>
 
 
@@ -99,7 +99,7 @@ Projeto desenvolvido para fins institucionais e acadêmicos.
 Desenvolvido por Pedro Henrique dos Santos Souza Lopes
 </details>
 
-<details>
+<details id="english">
 <summary> 🇺🇸 English Version </summary>
 
 <p align="center">
