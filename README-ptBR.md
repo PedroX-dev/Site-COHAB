@@ -3,6 +3,10 @@
 <details open>
 <summary>🇧🇷 Versão em Português </summary>
 
+<p align="center">
+  <a href="https://pedrox-dev.github.io/Site-COHAB/">Clique Aqui</a> para acessar o novo site da Cohab Minas
+</p>
+
 ## 📋 Sobre o Projeto
 
 O novo site da COHAB Minas é uma aplicação web desenvolvida com foco em organização, acessibilidade e usabilidade.  
