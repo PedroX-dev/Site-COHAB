@@ -1,4 +1,4 @@
-## 🏛 Institutional Web Platform Developed for COHAB Minas
+<h1 align="center"> 🏛 Institutional Web Platform Developed for COHAB Minas </h1>
 
 <p align="center">  
   🌐 Live Demo
