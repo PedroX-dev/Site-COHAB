@@ -1,4 +1,7 @@
-# 🏢 <a href="https://pedrox-dev.github.io/Site-COHAB/"> Site COHAB MINAS 2026 </a>
+# 🏢 COHAB Minas – Institutional Web Platform (2026)
+## 🌐 Live Demo
+
+🔗 https://pedrox-dev.github.io/Site-COHAB/
 
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
@@ -90,16 +93,6 @@ Basta abrir uma **issue** ou enviar um **pull request**.
 
 ---
 
-## Badges
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
-![Deployment](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue?style=for-the-badge)
-
----
-
 ## 📝 Licença
 Projeto desenvolvido para fins institucionais e acadêmicos.
 
@@ -161,6 +154,7 @@ https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 
 ---
 
+
 ## 🎯 Interface Highlights
 
 ### 🧭 Navigation
@@ -173,6 +167,14 @@ https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 - Mobile-first structure  
 - Optimized experience for both desktop and mobile  
 
+---
+## 📈 Project Impact
+
+- Developed for a real institutional environment (COHAB Minas – public housing agency)
+- Focused on usability, transparency, and accessibility
+- Structured for scalability and future feature expansion
+- Designed following mobile-first and responsive principles
+  
 ---
 
 ## ✨ Next Steps
@@ -196,6 +198,17 @@ https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 
 ---
 
+## 🧠 Skills Demonstrated
+
+- Front-End Architecture
+- Responsive UI Design
+- Information Architecture
+- Institutional Web Standards
+- Version Control (Git/GitHub)
+- Deployment with GitHub Pages
+
+---
+
 ## 🤝 Contributions
 Suggestions and improvements are welcome!  
 Feel free to open an **issue** or submit a **pull request**.
@@ -210,3 +223,16 @@ Developed for institutional and academic purposes.
 ## 👨‍💻 Author
 Developed by **Pedro Henrique dos Santos Souza Lopes**
 </details>
+
+## Badges
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
+![Deployment](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Project Type](https://img.shields.io/badge/Type-Institutional%20Project-blue?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge)
+
+---
