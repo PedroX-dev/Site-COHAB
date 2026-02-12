@@ -119,5 +119,7 @@ Developed for institutional and academic purposes.
 ---
 
 ## 👨‍💻 Author
-Developed by **Pedro Henrique dos Santos Souza Lopes**
+**Pedro Henrique dos Santos Souza Lopes**  
+Computer Science Student  
+Intern and Full-Stack Developer
 </details>
