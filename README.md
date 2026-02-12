@@ -1,8 +1,10 @@
+<p align="center>
 # 🏢 COHAB Minas – Institutional Web Platform (2026)
 ## 🌐 Live Demo
 
 🔗 https://pedrox-dev.github.io/Site-COHAB/
 
+</p>
 <p align="center">
   🌎 Escolha o idioma / Choose language:<br>
   <a href="#-versão-em-português">🇧🇷 Português</a> |
