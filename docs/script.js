@@ -883,7 +883,7 @@ document.addEventListener('DOMContentLoaded', () => {
         baseCards.forEach((card) => menuTrack.appendChild(card.cloneNode(true)));
       }
 
-      // Duplica o conjunto final para permitir o deslocamento contÃ­nuo.
+      // Duplica o conjunto final para permitir o deslocamento contí­nuo.
       menuTrack.innerHTML += menuTrack.innerHTML;
     }
 
