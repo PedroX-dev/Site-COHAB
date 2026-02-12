@@ -72,7 +72,7 @@ https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 - Buscando mais praticidade para todos tipos de usuarios
 <img width="1839" height="1005" alt="index" src="https://github.com/user-attachments/assets/95955bea-f85c-4607-a41d-516a3cea659a" />
 
-### Melhorar a dinâmica do site
+### ~~Melhorar a dinâmica do site~~
 - Buscando a melhoria geral para todos
 <img width="1536" height="1024" alt="cohab" src="https://github.com/user-attachments/assets/645b914d-86a7-4d95-b309-62b39de989a1" />
 
