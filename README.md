@@ -62,16 +62,13 @@ https://github.com/user-attachments/assets/0ed2a136-8b42-479b-94de-a02e22ad6554
 ---
 ## ✨ Próximas Etapas
 
-### No momento, tudo que o autor gostaria foi feito.
-Caso apareçam novas ideias, irei coloca-las aqui para implementação futura.
+### Requisitos e Critérios de Transparência
+- Atender todos requisitos possiveis dos critérios estabelecidos
 
 ---
 ## 🎯 Etapas Concluídas
 
-### ~~Requisitos e Critérios de Transparência~~
-- Atender todos requisitos possiveis dos critérios estabelecidos
-
-### Criar uma página inicial
+### ~~Criar uma página inicial~~
 - Buscando mais praticidade para todos tipos de usuarios
 <img width="1839" height="1005" alt="index" src="https://github.com/user-attachments/assets/95955bea-f85c-4607-a41d-516a3cea659a" />
 
