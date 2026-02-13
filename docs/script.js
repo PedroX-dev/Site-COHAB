@@ -27,6 +27,54 @@ document.addEventListener('DOMContentLoaded', () => {
     return new URL(rootPath || '/', window.location.href);
   };
 
+  const ORIG_STORAGE_KEY = 'cohab-origem';
+  const ORIG_PAGES = {
+    mutuarios: 'paginaMutuarios.html',
+    prefeituras: 'paginaPrefeituras.html',
+    inicial: 'paginaInicial.html',
+  };
+
+  const normalizeOrigem = (value) => {
+    const raw = (value || '').toString().trim().toLowerCase();
+    if (!raw) return '';
+    if (raw === 'mutuarios' || raw === 'mutuario') return 'mutuarios';
+    if (raw === 'prefeituras' || raw === 'prefeitura') return 'prefeituras';
+    if (raw === 'inicial' || raw === 'geral' || raw === 'acesso-geral') return 'inicial';
+    return '';
+  };
+
+  const inferOrigemFromPath = () => {
+    const path = (window.location.pathname || '').toLowerCase();
+    if (path.endsWith('/paginamutuarios.html')) return 'mutuarios';
+    if (path.endsWith('/paginaprefeituras.html')) return 'prefeituras';
+    if (path.endsWith('/paginainicial.html')) return 'inicial';
+    return '';
+  };
+
+  const definirOrigem = () => {
+    const params = new URLSearchParams(window.location.search || '');
+    const fromParam = normalizeOrigem(params.get('orig'));
+    if (fromParam) {
+      localStorage.setItem(ORIG_STORAGE_KEY, fromParam);
+      return;
+    }
+    if (!localStorage.getItem(ORIG_STORAGE_KEY)) {
+      const inferred = inferOrigemFromPath();
+      if (inferred) localStorage.setItem(ORIG_STORAGE_KEY, inferred);
+    }
+  };
+
+  const atualizarLinkLogo = () => {
+    const logoImg = document.getElementById('logo-site');
+    const logoLink = logoImg?.closest('a');
+    if (!logoLink) return;
+    const origem = normalizeOrigem(localStorage.getItem(ORIG_STORAGE_KEY));
+    if (!origem) return;
+    const root = getSiteRoot();
+    const alvo = ORIG_PAGES[origem] || ORIG_PAGES.inicial;
+    logoLink.href = new URL(alvo, root).toString();
+  };
+
   const filtroContainer = document.createElement('div');
   filtroContainer.id = 'filtro-site';
   while (document.body.firstChild) {
@@ -88,6 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   carregarTema();
   aplicarTema();
+
+  definirOrigem();
+  atualizarLinkLogo();
 
   // Menu completo (overlay)
   const menuOverlay = document.getElementById('menu-completo');
@@ -434,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const leituraPaginaBotao = criarBotaoLeitura('leitura-pagina', 'Ler pagina', 'Ler pagina atual');
-  const leituraSelecaoBotao = criarBotaoLeitura('leitura-selecao', 'Ler selecao', 'Ler texto selecionado');
+  const leituraSelecaoBotao = criarBotaoLeitura('leitura-selecao', 'Ler seleção', 'Ler texto selecionado');
   const leituraPausarBotao = criarBotaoLeitura('leitura-pausar', 'Pausar', 'Pausar leitura');
   const leituraPararBotao = criarBotaoLeitura('leitura-parar', 'Parar', 'Parar leitura');
   const leituraCliqueBotao = criarBotaoLeitura('leitura-clique', 'Ler ao clicar', 'Alternar leitura ao clicar');
@@ -980,7 +1031,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     };
     
-
     const next = () => goTo(pageIndex + 1);
     const prev = () => goTo(pageIndex - 1);
 
@@ -1218,7 +1268,6 @@ if (estrContainer) {
     </details>
   `).join('');
 }
-
 
 // Carta Anual
 function montarAccordionPorAno(containerId, dados) {
@@ -1631,8 +1680,6 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
       previewBox?.classList.remove('popup-ativo');
     });
   }
-
-
 
   // Busca (sugestoes + pagina de resultados)
   const buscaForm = document.querySelector('.menu-search') || document.querySelector('.busca');
@@ -2204,7 +2251,6 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
     });
   })();
 
-
   // Footer
   (function () {
         var lastTarget = document.getElementById('ultima-atualizacao');
@@ -2573,9 +2619,6 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
     atualizarCriterios();
     ajustarAlturaResultados();
   })();
-
-
-
 
   // VLibras
   if (window.VLibras && window.VLibras.Widget) {
