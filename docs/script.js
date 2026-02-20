@@ -1,20 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const DEV_AVISO_KEY = 'cohab-dev-aviso-v1';
-  const DEV_AVISO_TEXTO = 'Site da Cohab Minas em estagio de desenvolvimento.\nCaso tenha sugestões ou criticas construtivas, por favor envie um email para: pedro.lopes@ca.mg.gov.br;\nOu entre em contato com algum supervisor ou o proprio Pedro na COHAB Minas';
-
-  const mostrarAvisoDev = () => {
-    if (localStorage.getItem(DEV_AVISO_KEY)) return;
-    let resposta = '';
-    while (resposta !== null) {
-      resposta = window.prompt(`${DEV_AVISO_TEXTO}\n\nDigite "ok" para confirmar.`) || '';
-      if (resposta.trim().toLowerCase() === 'ok') {
-        localStorage.setItem(DEV_AVISO_KEY, '1');
-        break;
-      }
-    }
-  };
-
-  mostrarAvisoDev();
 
   const getSiteRoot = () => {
     const path = window.location.pathname || '/';
