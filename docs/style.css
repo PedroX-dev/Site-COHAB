@@ -4,6 +4,80 @@
     box-sizing: border-box;
 }
 
+/* REURB */
+.reurb-page {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.reurb-page #titulo {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.reurb-divider {
+  border-bottom-width: 3px;
+  margin: 18px 0;
+  opacity: 0.9;
+}
+
+.reurb-section {
+  background: #f7f9fc;
+  border-radius: 16px;
+  padding: clamp(16px, 2.2vw, 28px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  margin: 18px 0;
+}
+
+.reurb-section h2,
+.reurb-section h3 {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.reurb-section h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.reurb-section p {
+  margin: 10px 0;
+}
+
+.reurb-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.reurb-list li {
+  margin: 8px 0;
+}
+
+.reurb-highlight {
+  background: #d8d8d8;
+  border-left: 5px solid var(--primary);
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+body.tema-escuro .reurb-section {
+  background: #121a26;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  color: #e6e6e6;
+}
+
+body.tema-escuro .reurb-section h2,
+body.tema-escuro .reurb-section h3 {
+  color: var(--primary-light);
+}
+
+body.tema-escuro .reurb-highlight {
+  background: #0f1623;
+  border-left-color: var(--primary-light);
+}
+
 body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
