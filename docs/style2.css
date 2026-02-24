@@ -27,7 +27,7 @@
   padding: clamp(24px, 6vw, 64px) 0;
   background:
     linear-gradient(180deg, rgba(11,47,90,.75), rgba(11,47,90,.75)),
-    url("imagens/banner/construcao.jpg");
+    url("imagens/banner/conjuntos.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -252,3 +252,4 @@
     padding-bottom: 16px;
   }
 }
+
