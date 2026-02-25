@@ -1021,7 +1021,7 @@ document.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', prev);
     nextBtn.addEventListener('click', next);
 
-    let auto = setInterval(next, 1500);
+    let auto = setInterval(next, 3000);
 
     window.addEventListener('resize', () => { renderDots(); goTo(pageIndex); });
 
@@ -1041,7 +1041,7 @@ if (titulo && lista && prev1 && next1) {
   const anos = [
     { ano: 2024, itens: [
       { texto: 'Balancetes do mês de Dezembro exercício findo;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Balancetes-do-mes-de-Dezembro-exercicio-findo.pdf' },
-      { texto: 'Demonstração do do Valor adicional;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Demonstracao-do-Valor-adicional.pdf' },
+      { texto: 'Demonstração do Valor adicional;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Demonstracao-do-Valor-adicional.pdf' },
       { texto: 'Demonstração dos Fluxos de Caixa;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Demonstracao-dos-Fluxos-de-Caixa.pdf' },
       { texto: 'Notas Explicativas das Demonstrações Contábeis;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Notas-Explicativas-das-Demonstracoes-Contabeis.pdf' },
       { texto: 'Relatório de Auditoria Independente;', href: 'http://www.cohab.mg.gov.br/wp-content/uploads/2025/04/Relatorio-de-Auditoria-Independente.pdf' },
@@ -3439,8 +3439,3 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   }
 });
-
-
-
-
-
