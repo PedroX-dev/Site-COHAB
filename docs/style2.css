@@ -1,0 +1,255 @@
+:root{
+  --blue-900: #0b2f5a;  
+  --blue-800: #0a376b;
+  --blue-700: #0b4a8a;  
+  --btn-blue:  #0b3b78; 
+  --text: #0f172a;
+
+  --radius-card: 18px;
+  --radius-pill: 14px;
+
+  --shadow: 0 18px 50px rgba(0,0,0,.20);
+}
+
+*{ box-sizing: border-box; }
+
+.cohab-body{
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* HERO */
+.cohab-hero{
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  padding: clamp(24px, 6vw, 64px) 0;
+  background:
+    linear-gradient(180deg, rgba(11,47,90,.75), rgba(11,47,90,.75)),
+    url("imagens/banner/conjuntos.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cohab-container{
+  max-width: 1180px;
+  width: min(100%, 1180px);
+  padding-top: clamp(20px, 4vh, 48px);
+  padding-bottom: clamp(20px, 4vh, 48px);
+  padding-left: clamp(16px, 4vw, 40px);
+  padding-right: clamp(16px, 4vw, 40px);
+}
+
+.cohab-header{
+  margin-bottom: 8px;
+}
+
+.cohab-logo{
+  width: 220px;
+  height: auto;
+  filter: drop-shadow(0 10px 22px rgba(0,0,0,.22));
+}
+
+.cohab-title{
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.7rem, 2.6vw, 2.4rem);
+  text-shadow: 0 8px 18px rgba(0,0,0,.25);
+}
+
+.cohab-subtitle{
+  color: rgba(255,255,255,.80);
+  font-size: 1rem;
+}
+
+/* CARDS */
+.cohab-cards{
+  margin-top: 18px;
+}
+
+.cohab-card{
+  position: relative;
+  display: block;
+  height: 100%;
+
+  padding: 20px;
+  border-radius: var(--radius-card);
+
+  text-decoration: none;
+  color: var(--text);
+  
+  background: rgba(255,255,255,.18);
+
+  border: 1px solid rgba(255,255,255,.28);
+
+  
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  
+  box-shadow: 0 18px 55px rgba(0,0,0,.22);
+
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.cohab-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 26px 75px rgba(0,0,0,.30);
+
+  
+  background: rgba(255,255,255,.24);
+}
+
+.cohab-iconbox{
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+
+  display: grid;
+  place-items: center;
+
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.22);
+  color: #ffffff;
+
+  position: absolute;
+  top: 18px;
+  left: 18px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+.cohab-iconbox i{
+  font-size: 18px;
+}
+
+
+.cohab-card-body{
+  padding-top: 48px; 
+}
+
+.cohab-card-title{
+  margin: 0 0 6px;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: rgba(255,255,255,.95);
+}
+
+.cohab-card-text{
+  margin: 0 0 18px;
+  color: rgba(255,255,255,.78);
+  line-height: 1.35;
+  font-size: .95rem;
+}
+
+
+/* BOTÕES */
+.cohab-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 44px;
+
+  border-radius: var(--radius-pill);
+  font-weight: 800;
+  font-size: .95rem;
+}
+
+/* botão azul */
+.cohab-btn-primary{
+  background: rgba(11,59,120,.90);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.18);
+}
+.cohab-card:hover .cohab-btn-primary{
+  background: rgba(11,59,120,.98);
+}
+
+
+/* CARD INTRANET (azul) */
+.cohab-card--intranet{
+  background: rgba(11,74,138,.28);     
+  border: 1px solid rgba(255,255,255,.25);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+
+.cohab-iconbox--intranet{
+  background: rgba(255,255,255,.16);
+  color: #fff;
+}
+
+.cohab-btn-outline{
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  border: 1.5px solid rgba(255,255,255,.70);
+}
+.cohab-card:hover .cohab-btn-outline{
+  background: rgba(255,255,255,.14);
+}
+
+
+/* footer */
+.cohab-footer small{
+  color: rgba(255,255,255,.60);
+}
+
+
+@media (max-width: 991px){
+  .cohab-logo{ width: 200px; }
+}
+
+@media (max-width: 576px){
+  .cohab-card{ padding: 18px; }
+  .cohab-iconbox{ top: 16px; left: 16px; }
+  .cohab-card-body{ padding-top: 46px; }
+}
+
+@media (max-width: 480px){
+  .cohab-logo{ width: clamp(160px, 60vw, 200px); }
+  .cohab-title{ font-size: clamp(1.5rem, 6vw, 2rem); }
+  .cohab-card-text{ font-size: 0.9rem; }
+  .cohab-btn{ height: 42px; }
+}
+
+
+@media (max-height: 900px){
+  .cohab-hero{
+    align-items: flex-start;
+    padding: 18px 0 28px;
+  }
+  .cohab-container{
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .cohab-cards{
+    margin-top: 12px;
+  }
+}
+
+
+@media (max-height: 800px){
+  .cohab-header{
+    margin-bottom: 4px;
+  }
+  .cohab-subtitle{
+    font-size: .95rem;
+  }
+  .cohab-cards{
+    margin-top: 2px;
+    --bs-gutter-y: 0.75rem;
+  }
+  .cohab-container{
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+}
+
