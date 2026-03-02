@@ -2240,10 +2240,10 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
 (() => {
   const form = document.getElementById('boleto-form');
   if (!form) return;
-
+  
   const API_BASE = 'https://apisegundaviacohabmg.elogica.info';
-  const PDF_BASE = 'MenuHorizontal/Mutuarios/segundaViaBoletos.htmlpdf/';
-  const INFORME_BASE = 'MenuHorizontal/Mutuarios/segundaViaBoletos.htmlinforme/?contrato=';
+  const PDF_BASE = 'https://segundaviacohabminas.elogica.info/pdf/';
+  const INFORME_BASE = 'https://segundaviacohabminas.elogica.info/informe/?contrato=';
 
   const tipoRadios = Array.from(document.querySelectorAll('input[name="tipo-acesso"]'));
   const contratoInput = document.getElementById('contrato');
@@ -3439,3 +3439,4 @@ const isQuemEquem = pathLower.includes('quemequem.html') || pathLower.includes('
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   }
 });
+
